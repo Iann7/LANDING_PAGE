@@ -1,0 +1,369 @@
+html{
+  overflow-x:hidden;
+}
+body{
+  background-color:white;
+  margin-bottom:0px;
+}
+
+
+a{
+  color:white;
+}
+
+@font-face {
+  font-family: 'bmespresso';
+  src: url('bmespresso.woff2') format('woff2'),
+       url('bmespresso.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quesha';
+  src: url('Quesha.woff') format('woff');
+}
+
+
+.container-fluid{
+  padding-left:0px;
+  padding-right:0px;
+  padding-top: 1%;
+  text-align:left;
+  background-color:#f5b461;
+}
+ .title{
+  margin-top:25px;
+  font-size:4rem;
+  color:white;
+}
+
+.titleImage{
+  width:100%;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+
+.titleSection{
+  padding-top:13%;
+  text-align: center;
+  background-color:#f5b461;
+}
+
+.iconSection > h1,ul {
+  text-align: center;
+}
+
+
+
+
+.navbar{
+  padding-top:1%;
+  padding-bottom:1%;
+  width: 100%;
+  background-color:#f5b461;
+}
+.bell{
+  margin-right:1%;
+  font-size:1.5rem;
+}
+.brand{
+  font-size:2.3rem;
+  font-family:serif;
+}
+
+.nav-item{
+  font-size:2rem;
+  font-family:'Quesha';
+  position:relative;
+  bottom:20px;
+}
+
+.center{
+  text-align:center;
+}
+.iconSection{
+  padding-top:6.5%;
+  padding-bottom:6.5%;
+  background-color:white;
+}
+
+.features-icons{
+  margin-bottom: 20px;
+  font-size:4rem;
+}
+
+.features-icons:hover{
+  color:#f5b461;
+}
+
+.features-titles{
+    font-family:'bmespresso';
+    font-size:3.8rem;
+}
+
+.menuSection{
+
+padding: 2% 5% 4% 5%;
+color:white;
+}
+
+.orange{
+  background-color:#ee635d;
+}
+.brown{
+  background-color:#f5b461;
+  margin-top:1.8%;
+}
+
+.mint{
+  background-color:#61a2f5;
+  margin-top:1.8%;
+}
+
+.menuSectionIcons{
+  color:white;
+  margin-top:6%;
+  font-size:3.5rem;
+  width:100%;
+  text-align: center;
+}
+
+.menuSectionTitle{
+  font-family:'bmespresso';
+  font-size:7.3rem;
+  text-align:center;
+  width:100%;
+  display:block;
+  padding: 3% 0% 3% 0%;
+}
+.menu{}
+
+.menuItem{
+  padding: 1%;
+  margin-top:2%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+.menuItemTitle{
+  text-align:right;
+  display:inline-block;
+  font-family:'Quesha';
+  font-size:4.3rem;
+}
+
+.price{
+  float:right;
+  display:inline-block;
+  font-family:'bmespresso';
+  font-size:4.3rem;
+  margin-bottom:0%;
+  position:relative;
+  top:6px
+}
+
+
+
+.contact{
+
+padding: 5% 5% 4% 5%;
+color:black;
+}
+
+.share{
+  width:100%;
+  text-align: center;
+    padding-bottom:6.5%;
+}
+
+.btnWPP{
+  padding:1%;
+  font-size:3rem;
+}
+
+
+
+
+@media (max-width:870px) {
+
+  .navbar{
+    margin:0%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+  .navbar-brand{
+    font-size:5rem;
+  }
+
+  .navbar-item{
+    44
+  }
+
+
+  .iconSection{
+    padding-top:21%;
+  }
+
+  .features-titles{
+        margin-bottom: 11%;
+        font-size:5rem;
+  }
+
+  .menuSectionIcons{
+    font-size:2rem;
+  }
+  .menuItemTitle{
+    font-size:3rem;
+  }
+
+  .price{
+    font-size:3rem;
+  }
+
+  .btnWPP{
+
+    font-size:2.5rem;
+  }
+
+}
+
+@media (max-width:600px) {
+
+  .navbar{
+    margin:0%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+  .navbar-brand{
+    font-size:4rem;
+  }
+
+  .nav-item{
+    font-size:2.3rem;
+  }
+
+  .iconSection{
+    padding-top:21%;
+  }
+
+  .features-icons{
+   font-size:3rem;
+  }
+  .features-titles{
+        margin-bottom: 11%;
+        font-size:2rem;
+  }
+
+  .menuSectionTitle{
+    font-size:3.8rem;
+  }
+
+  .menuItemTitle{
+    font-size:2rem;
+  }
+
+  .price{
+    font-size:2rem;
+  }
+
+  .btnWPP{
+
+    font-size:1.9rem;
+  }
+}
+
+
+@media (max-width:410px) {
+
+  .navbar{
+    margin:0%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+  .navbar-brand{
+    font-size:3.5rem;
+  }
+
+  .iconSection{
+    padding-top:21%;
+
+  }
+
+  .menuItemTitle{
+    font-size:1.8rem;
+  }
+
+  .price{
+    font-size:2rem;
+    position:relative;
+    bottom:10px;
+  }
+
+  .btnWPP{
+
+    font-size:1.5rem;
+  }
+}
+
+@media (max-width:376px) {
+
+  .navbar{
+    margin:0%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+  .navbar-brand{
+    font-size:3.4rem;
+  }
+
+  .iconSection{
+    padding-top:21%;
+
+  }
+
+  .menuItemTitle{
+    font-size:1.7rem;
+  }
+
+  .price{
+    font-size:1.7rem;
+    position:relative;
+    bottom:10px;
+  }
+}
+
+@media (max-width:330px) {
+
+  .navbar{
+    margin:0%;
+    padding-top:3%;
+    padding-bottom:3%;
+  }
+  .navbar-brand{
+    font-size:3.4rem;
+  }
+
+  .iconSection{
+    padding-top:21%;
+
+  }
+
+  .menuItemTitle{
+    font-size:1.5rem;
+  }
+
+  .price{
+    font-size:1.5rem;
+    position:relative;
+    bottom:10px;
+  }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    width: 100%;
+  }
+  .features-icons{
+    color:#f5b461;
+  }
+}

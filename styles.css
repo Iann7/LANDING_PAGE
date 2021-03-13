@@ -1,0 +1,349 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+  margin-bottom: 0px;
+}
+
+a {
+  color: white;
+}
+
+@font-face {
+  font-family: 'bmespresso';
+  src: url('bmespresso.woff2') format('woff2'),
+    url('bmespresso.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quesha';
+  src: url('Quesha.woff') format('woff');
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1%;
+  text-align: left;
+  background-color: #f5b461;
+}
+
+.title {
+  margin-top: 80px;
+  font-size: 4rem;
+  color: white;
+}
+
+.titleImage {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.btnIMG {
+  position: relative;
+  top: 17%;
+  right: 20%;
+  width: 35%;
+  color: white;
+  font-size: 2REM;
+  background-color: transparent;
+}
+
+.titleSection {
+  padding-top: 13%;
+  text-align: center;
+  background-color: #f5b461;
+}
+
+.iconSection>.quote {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.iconSection>ul, p {
+  text-align: left;
+}
+
+.navbar {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  background-color: #f5b461;
+}
+
+.bell {
+  margin-right: 1%;
+  font-size: 1.5rem;
+}
+
+.brand {
+  font-size: 2.3rem;
+  font-family: serif;
+}
+
+.iconSection {
+  padding-top: 6.5%;
+  padding-bottom: 6.5%;
+  background-color: white;
+}
+
+.explanation {
+  padding-top: 7%;
+  padding-left: 20%
+}
+
+.explanation>p {
+  font-size: 1.6rem;
+}
+
+.list {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
+  font-size: 3.5rem;
+}
+
+.col-xl-6>h3 {
+  font-size: 1.7rem;
+}
+
+.col-xl-4>h3 {
+  font-size: 1.4rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+.input-group-text {
+  display: inline-block;
+}
+
+.contact {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #61A2F5;
+  color: white;
+}
+
+.contactTitle {
+  font-size: 4rem;
+  padding-bottom: 6%;
+  padding-top: 3%;
+}
+
+.mail {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 66.5%;
+}
+
+.btn-email {
+  margin-top: 6%;
+  width: 25%;
+  font-size: 2rem;
+}
+
+.contactTitle2 {
+  font-size: 4rem;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+@media (max-width:1000px) {
+  .explanation>p {
+    font-size: 1rem;
+  }
+
+  .explanation {
+    padding-left: 8%;
+  }
+}
+
+@media (max-width:800px) {
+  .quote {
+    font-size: 2.2rem;
+  }
+
+  .explanation>h1 {
+    font-size: 2rem;
+  }
+
+  .explanation>p {
+    font-size: 1rem;
+  }
+
+  .padding {
+    padding-top: 20%;
+    font-size: 1.7rem;
+  }
+
+  .list {
+    font-size: 3.9rem;
+  }
+
+  .col-xl-6>h3 {
+    font-size: 1.3rem;
+  }
+
+  .col-xl-4>h3 {
+    font-size: 1.1rem;
+  }
+
+  .contactTitle, .contactTitle2 {
+    font-size: 3.3rem;
+  }
+
+  .mailTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width:650px) {
+  .explanation {
+    padding-left: 6%;
+  }
+
+  .quote {
+    font-size: 1.9rem;
+  }
+
+  .explanation>h1 {
+    font-size: 1.7rem;
+  }
+
+  .explanation>p {
+    font-size: 0.95rem;
+  }
+
+  .col-xl-6>h3 {
+    font-size: 1.2rem;
+  }
+
+  .col-xl-4>h3 {
+    font-size: 1rem;
+  }
+
+  .contactTitle, .contactTitle2 {
+    font-size: 3.1rem;
+  }
+
+  .mailTitle {
+    font-size: 2rem;
+  }
+
+  .btn-email {
+    font-size: 1.9rem;
+    margin-top:20%;
+    width:auto;
+  }
+}
+
+@media (max-width:560px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .quote {
+    font-size: 1.6rem;
+  }
+
+  .explanation>h1 {
+    font-size: 1.4rem;
+  }
+
+  .explanation>p {
+    font-size: 0.9rem;
+  }
+
+  .col-xl-6>h3 {
+    font-size: 1rem;
+  }
+
+  .col-xl-4>h3 {
+    font-size: 0.8rem;
+  }
+
+  .contactTitle, .contactTitle2 {
+    font-size: 2.9rem;
+  }
+
+  .mailTitle {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:470px) {
+  .title {
+    font-size: 2.7rem;
+  }
+
+  .quote {
+    font-size: 1.3rem;
+  }
+
+  .explanation>h1 {
+    font-size: 1.2rem;
+  }
+
+  .explanation>p {
+    font-size: 0.85rem;
+  }
+
+  .contactTitle, .contactTitle2 {
+    font-size: 2.9rem;
+  }
+
+  .mailTitle {
+    font-size: 1.6rem;
+  }
+
+  .contact > h3 {
+    font-size:1.4rem;
+  }
+}
+
+@media (max-width:400px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .quote {
+    font-size: 1.2rem;
+  }
+
+  .explanation>h1 {
+    font-size: 1.1rem;
+  }
+
+  .explanation>p {
+    font-size: 0.78rem;
+  }
+
+  .contactTitle, .contactTitle2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    width: 100%;
+  }
+
+  .features-icons {
+    color: #f5b461;
+  }
+}
